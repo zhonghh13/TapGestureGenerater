@@ -1,0 +1,6 @@
+framework module TapGestureGenerater {
+  umbrella header "Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h"
+
+  export *
+  module * { export * }
+}

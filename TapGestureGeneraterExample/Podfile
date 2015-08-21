@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TapGestureGenerater_Example', :exclusive => true do
+  pod "TapGestureGenerater", :path => "../"
+end
+
+target 'TapGestureGenerater_Tests', :exclusive => true do
+  pod "TapGestureGenerater", :path => "../"
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end
+
+use_frameworks!

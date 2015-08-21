@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TapGestureGenerater_Example_TapGestureGenerater : NSObject
+@end
+@implementation PodsDummy_Pods_TapGestureGenerater_Example_TapGestureGenerater
+@end

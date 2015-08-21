@@ -1,0 +1,1810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0340FFAAAC2F07BF728C066C /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D96F4F77BD93CF8E8209A /* BeLessThanOrEqual.swift */; };
+		07C3C9C5A54D73E0F47DD63D /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A9E99AA8DD0E1397A43D97 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092B07DD4B7385D5804E7738 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383224C589EC7A5CDCD58BC8 /* Example.swift */; };
+		0C47C1ACEE229A9BA989DF70 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F31291D045F18CC944B89 /* Filter.swift */; };
+		0F4FB0EECA09D87621A2191E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		0FF03D195B5A8F3C3F372C58 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C7CACBC0A9BB9FACE4711 /* BeAnInstanceOf.swift */; };
+		10FC970DDADC8EF44FD89FF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6076946A01DA1332CD419E94 /* XCTest.framework */; };
+		1406D34B61DDF8125F69EA7D /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167CE4BFF2B7F6D3795F57FF /* Callsite.swift */; };
+		19BEC7F39796DC57AE0E8B49 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947E4957C2D9F91C2C6ECD7 /* Poll.swift */; };
+		1D116C495A57C45C5FAE47EB /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A07FD665195CEE682BA6D0 /* World+DSL.swift */; };
+		1F7C84B06C749BCC0F3E54C7 /* TapGestureGenerater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49E0CB14A5453CEB2C331E /* TapGestureGenerater.swift */; };
+		1FFD4F00C2E09B74B701302C /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FD22651280F687F266149 /* BeLessThan.swift */; };
+		246A70011C74182F54B577C2 /* Pods-TapGestureGenerater_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A96764F3094737E0C45695C6 /* Pods-TapGestureGenerater_Example-dummy.m */; };
+		248D081581B18AA036C6BC08 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4A7D75C68F264AD34AF67A /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C78847A431D854B0CAEFAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6076946A01DA1332CD419E94 /* XCTest.framework */; };
+		24D5FF93D18C19D3FCEB7430 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F838C0048EA7829B0F196 /* DSL.swift */; };
+		2685AD8CE1E3450FCC9C8E20 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A8B91A285F53C1704A4C57 /* BeCloseTo.swift */; };
+		2AB7E8B8AD5DCCA773DE3028 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF092F863315170FB7A00D3 /* UIImage+Compare.m */; };
+		2D3A6A806575B410311804BA /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7248515A7BCC01418A3A2 /* ExampleGroup.swift */; };
+		32294647C22C272F52C72636 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB18B24D643EC55AFF532D3 /* RaisesException.swift */; };
+		37807B1B9AE4F533DB003B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		37E64677CF0EA7BF3F60A2AA /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66BD34F115F0B5A181E89A /* Contain.swift */; };
+		38587E8A6696935DBA2DA2D3 /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 43BD0B126293F1831FF40BAE /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38AFE4A0EF44630E0FCBB0BD /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332D5AFDF36BF56DE74B9C5 /* BeGreaterThan.swift */; };
+		3D3EFD37A1FDAC035D17FF3A /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F466FB145E28E784832CB28 /* Stringers.swift */; };
+		3D4629A3B78F221C7A15F2D0 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BEFE283022C70147D099AE /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D780DB78CD2C5339A35648E /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20080D2A448421CF1C9BAE90 /* BeGreaterThanOrEqualTo.swift */; };
+		3F7507A65AAD4F2ED7D77D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		40E2D973AD148BD0C1E5302F /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9405FF32123D9DF229991366 /* AsyncMatcherWrapper.swift */; };
+		4A09D86216D5296A5EF404D5 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A917B201D4F36E1D67B699CF /* SuiteHooks.swift */; };
+		4C7AE25C5FB80A18D73A9D0E /* Pods-TapGestureGenerater_Tests-Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4EA9293BE468DDA432E94 /* Pods-TapGestureGenerater_Tests-Nimble-dummy.m */; };
+		4E14857150DDE39781C22DDD /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F0B3A0D761E682BD3955E /* Failure.swift */; };
+		4FAA8097AB6F2B686335DAF2 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EE7433F76BAFF371A63DB2 /* QuickSpec.m */; };
+		5E030C7627E0063678DFA963 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 421C54943F6F9CBD79FA5E75 /* DSL.m */; };
+		5FF95AEB7A35B0BD6BA5F8F9 /* Pods-TapGestureGenerater_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2597F07DC98B5DE476819582 /* Pods-TapGestureGenerater_Tests-dummy.m */; };
+		610DB3B1A02649992CA81CB1 /* Pods-TapGestureGenerater_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FE10281D13286F30A83E95 /* Pods-TapGestureGenerater_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6122ED782FA8B83868F42C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		64A64717BB1A7468A786EB98 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8BF1488914C365501B3542 /* AllPass.swift */; };
+		680E2E986C8A030656D4E704 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2FB9AF76885CC33CA0A50B /* MatcherProtocols.swift */; };
+		6990BA52865343ABC807495F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406483A27CA64845959E4274 /* UIKit.framework */; };
+		6A2C6C49132B3AC3EA835CFF /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 43736FAE431122B50212EC43 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7630FCB3A7B54126AC383385 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5DADB5862F94F6FB9982AF /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786B524D94FD0EBA5E210076 /* TapGestureGenerater.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9B6CB1B93CA639FB92346D /* TapGestureGenerater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B4A5AAB96C9770495C2B77 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A38E3028CD40D44B5007F02 /* FBSnapshotTestController.m */; };
+		7A2DCB7796AC9EF15A0C442C /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E021504F88484E9B921438D /* QuickConfiguration.m */; };
+		7ACBE3B5A2849EA5E0584D37 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE4BD37E5C7C0D6784DC0D /* Expression.swift */; };
+		7D4A653F8CB8FAD7EA3F4A79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 668E73A61EFDEF6664072591 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D8C36D795F9432D31C1B905 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E1DB94212E9B95B2EC336 /* NimbleXCTestHandler.swift */; };
+		7E0BD385C71D0E0878368089 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = E0242EED1E0A76D53EBAB0D0 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F96C984A2C79986324B09FF /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916755860DD81A9FA0C9395 /* FBSnapshotTestCasePlatform.m */; };
+		8195917A61DD806E7BE9C166 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098150DF388F4104DC474363 /* BeIdenticalTo.swift */; };
+		886DA6B290EBC2E01E21AAB0 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541C47110034943B3B6A3B7 /* Match.swift */; };
+		8A82CB883D0AC6F8DEF91891 /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 18590972B1D971D2A2AF2491 /* NSString+QCKSelectorName.m */; };
+		8E254CB0DBE0A67EEC7A35A4 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C839FC9FEE8890196FEC4 /* HaveValidSnapshot.swift */; };
+		8F5CF0E4CD6DF3CC951C3732 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04339CC9902DFF5FAB2410 /* MatcherFunc.swift */; };
+		8FB71C3E80C53C53A9F05246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		90A47393CC3F743D847E1719 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB8F1DEFB97734CEE5A016 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m */; };
+		9B859CE4459FA295632CB731 /* Pods-TapGestureGenerater_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232E2AE6DA09638A8293F884 /* Pods-TapGestureGenerater_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CFFA6FCEB0B8119FA71169A /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC01B989F2EFF70927B95FF /* EndWith.swift */; };
+		A1E0C7B875164B85336B9D7E /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A799F1259AFB7150DA8CEC9 /* FBSnapshotTestCase.framework */; };
+		A2F4781B6F8DD76637111BE1 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C60D6AEB89BB91B107D3FB /* BeNil.swift */; };
+		A2F66C5B1C445DD49CCF1808 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498953353648AE0047ADE6D1 /* FailureMessage.swift */; };
+		A377EC131D4E723E03F704EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		A41C10FED1C16FF9F8C79053 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5453D62D5C2E1D607884C /* BeAKindOf.swift */; };
+		A598529F20C84A21CD12AA97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6076946A01DA1332CD419E94 /* XCTest.framework */; };
+		A632AE491715B226EF8B0694 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8985039F8FAB7E5DA004A00 /* ExampleHooks.swift */; };
+		AA90B3FA4A715CB8E5017C37 /* BasicMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73DA9FDE85A616E235E904 /* BasicMatcherWrapper.swift */; };
+		ABC63375482FF932D8FFCC8D /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645D97B158E3E47B53ECFAD9 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-dummy.m */; };
+		AE0B28F6D571A91275AE4886 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DEA1B624D8E386FC1B4F8A6 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B08D89AB747CCBDF83BF6E50 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136BB15953CFB4154A4AB67 /* NMBExceptionCapture.m */; };
+		B2A91F8BAFA8C1CB340F0860 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DC7497D73E12F41CE9AF59 /* QCKDSL.m */; };
+		B2B7AB3DAB5DFB38CCC054F2 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E37E9FA0C2474E2324594 /* World.swift */; };
+		B9586E5CF63B0C22A94AC94F /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 962ABF4AD76DBD66FA1986FC /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB680356ACF8399D707AE776 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C8EB5C0DC9F7CD29DDF871 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCAD1FE5D18C8F3771F20239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		BCBAA6FFDFE2846AA67D07E7 /* TapGestureGenerater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49E0CB14A5453CEB2C331E /* TapGestureGenerater.swift */; };
+		C12C44256EF90987FDEF70BD /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B136D8A14DC9D6A66EDEF8F /* Functional.swift */; };
+		C19B088AFB4CD3AC86D60FF7 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314FF7E19C81F310C1FCE812 /* Nimble.framework */; };
+		C302A2A7D0B541499C44BE31 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EA25B5039A43EC4D022B85 /* Configuration.swift */; };
+		C5ACB9E2ADD07A695DA54FB6 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D974815276B30E51B77F8F70 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C612FEBC39B407169F16FE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96346871209ADE03AC997D /* Foundation.framework */; };
+		CBADDEB1C6C9C8A995448621 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050AAABE0DB685E74F5D7A8 /* DSL.swift */; };
+		CD196D7BD5EB4A3ED46CF00C /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9964D233502927993CFA4 /* DSL+Wait.swift */; };
+		CF2FA20EBC2357D5398F8C2E /* Pods-TapGestureGenerater_Tests-Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3978D3B5DFFC783B338181B7 /* Pods-TapGestureGenerater_Tests-Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB218C74763F6EEFD72D512 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099724D0805640D5DE8F011 /* BeLogical.swift */; };
+		D0D52F64D448F7B18152FB0E /* Pods-TapGestureGenerater_Example-TapGestureGenerater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBC92FDBEEFB70DB88C4119 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-dummy.m */; };
+		D10A79592D4AD3B58CBC1670 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4344F0361B0B519A799264 /* Quick.framework */; };
+		D1BB5DB94698673115B00AF1 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7861C23D60ABB0D4E2147B /* BeEmpty.swift */; };
+		D3BC7B1B19966AECB7834A48 /* FullMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF906FCC616A48BB0CB5FBB4 /* FullMatcherWrapper.swift */; };
+		D5C7C553A6F42B9C677372C9 /* Pods-TapGestureGenerater_Tests-Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A41221A8DCB3B19EB30EF3 /* Pods-TapGestureGenerater_Tests-Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABDEC056C70AF4A4625777A /* PrettySyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD5C844E1875AADB79557B /* PrettySyntax.swift */; };
+		DB0802B4D6070DA088E97F13 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 251E1804D939D428D3DF9E1B /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-dummy.m */; };
+		DBF6A460E485DEFBEC953610 /* TapGestureGenerater.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9B6CB1B93CA639FB92346D /* TapGestureGenerater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD2259A97D13C8DE58DB9064 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E34E5C5C3F2DD156F594BA /* SourceLocation.swift */; };
+		DDA16E1B1E717A87498AD78D /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E9E34A87ACBF472A96203 /* ExampleMetadata.swift */; };
+		DE587BDA524C73E0BD9FFC16 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B85E80D09421F7AADDEC5E9E /* UIImage+Diff.m */; };
+		DED0B8508E56C8A770DEF06F /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AEB6C6A262B30369B815DEC /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A3845913C2BB9E9718D16B /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ACADE7B017AA177E6E5E9F /* AdapterProtocols.swift */; };
+		E46B251953C9E3BCF70854BE /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573FC586154D51FEA21C4C31 /* ObjCMatcher.swift */; };
+		E58CBC199A1F05B51E640F74 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3350702F345DC64B3106BB /* Expectation.swift */; };
+		E6593CABDD6866B802287CB3 /* NonNilMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3AF4A40ED40C1C6B6DBAB /* NonNilMatcherWrapper.swift */; };
+		E75E77947CA3494393DE1651 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1228AF14198D4EE865E67C94 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4D3199D4424E2F8AFE5102 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13C9046BE0840A1A7161DD /* Equal.swift */; };
+		EF29A6FE0F575B18787C9D51 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A44D0D142FDC585D02F279 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE56DE82F108F75627699D8 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B0381F7D9EFD19CF272D41E4 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09630B27D79D24F6165FA48 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5D2D0A5FFA5F8A12CBFD8 /* Closures.swift */; };
+		F2292A30F8D2080B8EACE676 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F880381DD1E43CFDBEA00B4 /* AssertionRecorder.swift */; };
+		F4A0701094849BE8FF02AB2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6076946A01DA1332CD419E94 /* XCTest.framework */; };
+		F5BB50D3736A950B72F77020 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCF7A6BFD307A84771B314 /* BeginWith.swift */; };
+		F61FA397F1984938F179C6C7 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B077B8A262262D7D8B71F0F8 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8EE892F0BA50A7C019064E5 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01CF91799AAD0A073DE660 /* FBSnapshotTestCase.m */; };
+		FCAF809DB293BD8A3E853198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406483A27CA64845959E4274 /* UIKit.framework */; };
+		FEA18CEB3194C6A14DD52F64 /* Pods-TapGestureGenerater_Tests-Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3294C1BF2E939691D9BCA679 /* Pods-TapGestureGenerater_Tests-Quick-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086920EBDD3555D2AFCEC1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F709EED582B6C6E879BF2A71;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-Quick";
+		};
+		271D3D5A37B118C438403EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51882117741FFD73EB15F5DA;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+		};
+		58878C97D0D054ECB7235E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F709EED582B6C6E879BF2A71;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-Quick";
+		};
+		5B7AC5D118879013D78B8F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6C20B5CC74BCC44B56EF65;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-TapGestureGenerater";
+		};
+		BD30BAAEEFB6B35409373DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798208F09E1D64FDAD43F238;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots";
+		};
+		DD4AD8860626FFFAB63FF024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F8DBB0EAC30B0CC6DF4D92;
+			remoteInfo = "Pods-TapGestureGenerater_Example-TapGestureGenerater";
+		};
+		E61F79D02AFD5CEB4975B23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51882117741FFD73EB15F5DA;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+		};
+		FC2194CAD28AC80A64F3223B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5C7362E409C291DABB69C3;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-Nimble";
+		};
+		FD588FA07B1E0A99D18B4802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B158954CA8605E2583842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5C7362E409C291DABB69C3;
+			remoteInfo = "Pods-TapGestureGenerater_Tests-Nimble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E6344938C61EC5613AD040 /* Pods-TapGestureGenerater_Tests-Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-Nimble-prefix.pch"; sourceTree = "<group>"; };
+		098150DF388F4104DC474363 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
+		09AD5C844E1875AADB79557B /* PrettySyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = "<group>"; };
+		0A0E1DB94212E9B95B2EC336 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
+		0E021504F88484E9B921438D /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		0F22F18CFECF3CC8E7BB65B3 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots-Private.xcconfig"; sourceTree = "<group>"; };
+		0F58A970DDDD3FCC6440D501 /* TapGestureGenerater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapGestureGenerater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1228AF14198D4EE865E67C94 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Example-TapGestureGenerater-umbrella.h"; sourceTree = "<group>"; };
+		14A44D0D142FDC585D02F279 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Nimble/Nimble.h; sourceTree = "<group>"; };
+		14ED0A22CD46B8BB4691B897 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15957E0E8A01EAA1AA3FE9EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167CE4BFF2B7F6D3795F57FF /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Quick/Callsite.swift; sourceTree = "<group>"; };
+		1774D2C9DF562192386C5877 /* Pods-TapGestureGenerater_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapGestureGenerater_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		177E37E9FA0C2474E2324594 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Quick/World.swift; sourceTree = "<group>"; };
+		18590972B1D971D2A2AF2491 /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
+		1A73DA9FDE85A616E235E904 /* BasicMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicMatcherWrapper.swift; path = Nimble/Wrappers/BasicMatcherWrapper.swift; sourceTree = "<group>"; };
+		1B136D8A14DC9D6A66EDEF8F /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		1FF092F863315170FB7A00D3 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		20080D2A448421CF1C9BAE90 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		2099724D0805640D5DE8F011 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
+		2136BB15953CFB4154A4AB67 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
+		219FDE30F789093E82F40AE5 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		21BEFE283022C70147D099AE /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		22014A3EFFE7B6F60537F531 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		232E2AE6DA09638A8293F884 /* Pods-TapGestureGenerater_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Example-umbrella.h"; sourceTree = "<group>"; };
+		251E1804D939D428D3DF9E1B /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
+		2597F07DC98B5DE476819582 /* Pods-TapGestureGenerater_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Tests-dummy.m"; sourceTree = "<group>"; };
+		25DC7497D73E12F41CE9AF59 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
+		27EA25B5039A43EC4D022B85 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		27FE21A550FB9E79144049BE /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater-Private.xcconfig"; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater-Private.xcconfig"; sourceTree = "<group>"; };
+		29C60D6AEB89BB91B107D3FB /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
+		2B101A9EE6CCD2B679EEE047 /* TapGestureGenerater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapGestureGenerater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8DC1655DDF4A347C62E620 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater.xcconfig"; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater.xcconfig"; sourceTree = "<group>"; };
+		2FBCF7A6BFD307A84771B314 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		314FF7E19C81F310C1FCE812 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CEFE779E9080EA185B542C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3294C1BF2E939691D9BCA679 /* Pods-TapGestureGenerater_Tests-Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Tests-Quick-dummy.m"; sourceTree = "<group>"; };
+		33FE10281D13286F30A83E95 /* Pods-TapGestureGenerater_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-umbrella.h"; sourceTree = "<group>"; };
+		36C3AF4A40ED40C1C6B6DBAB /* NonNilMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NonNilMatcherWrapper.swift; path = Nimble/Wrappers/NonNilMatcherWrapper.swift; sourceTree = "<group>"; };
+		380C3ECA55DC18A6CAC60D3C /* Pods-TapGestureGenerater_Example-TapGestureGenerater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Example-TapGestureGenerater-prefix.pch"; sourceTree = "<group>"; };
+		383224C589EC7A5CDCD58BC8 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
+		395EA7A1108A3F28C1809CCF /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots.xcconfig"; sourceTree = "<group>"; };
+		396230B3717970F1E960C66A /* Pods-TapGestureGenerater_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapGestureGenerater_Tests-resources.sh"; sourceTree = "<group>"; };
+		3978D3B5DFFC783B338181B7 /* Pods-TapGestureGenerater_Tests-Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-Quick-umbrella.h"; sourceTree = "<group>"; };
+		3B3350702F345DC64B3106BB /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Nimble/Expectation.swift; sourceTree = "<group>"; };
+		3B9B6CB1B93CA639FB92346D /* TapGestureGenerater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TapGestureGenerater.h; sourceTree = "<group>"; };
+		3E5DADB5862F94F6FB9982AF /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Quick/QuickSpec.h; sourceTree = "<group>"; };
+		3F66BD34F115F0B5A181E89A /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
+		406483A27CA64845959E4274 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		40B7DDA4C7B517D73365BE77 /* Pods-TapGestureGenerater_Tests-Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Tests-Quick.modulemap"; sourceTree = "<group>"; };
+		421C54943F6F9CBD79FA5E75 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Nimble/objc/DSL.m; sourceTree = "<group>"; };
+		43736FAE431122B50212EC43 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
+		43BD0B126293F1831FF40BAE /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
+		46A07FD665195CEE682BA6D0 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
+		498953353648AE0047ADE6D1 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		4A01CF91799AAD0A073DE660 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		4A4A7D75C68F264AD34AF67A /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		4A8BF1488914C365501B3542 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		4DC5D2D0A5FFA5F8A12CBFD8 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		4F466FB145E28E784832CB28 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		4FEFBBA7899AB74B2E8F70C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Info.plist"; sourceTree = "<group>"; };
+		545DF63209113E4A98A9DD3A /* Pods-TapGestureGenerater_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapGestureGenerater_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56C8EB5C0DC9F7CD29DDF871 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Quick/Quick.h; sourceTree = "<group>"; };
+		573FC586154D51FEA21C4C31 /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
+		57A9E99AA8DD0E1397A43D97 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots-umbrella.h"; sourceTree = "<group>"; };
+		5A38E3028CD40D44B5007F02 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		5A799F1259AFB7150DA8CEC9 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7861C23D60ABB0D4E2147B /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		5DEA1B624D8E386FC1B4F8A6 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h"; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h"; sourceTree = "<group>"; };
+		6050AAABE0DB685E74F5D7A8 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Nimble/DSL.swift; sourceTree = "<group>"; };
+		6076946A01DA1332CD419E94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		645D97B158E3E47B53ECFAD9 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		651D41DE586932ADE122F573 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		668E73A61EFDEF6664072591 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		68B7A735C51D17158CFFF1FE /* Pods-TapGestureGenerater_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Example.modulemap"; sourceTree = "<group>"; };
+		68EF4157DD52CD572F2DE034 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEB6C6A262B30369B815DEC /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		6B8FD22651280F687F266149 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
+		6C2FB9AF76885CC33CA0A50B /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
+		6C7F0B3A0D761E682BD3955E /* Failure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Failure.swift; path = Quick/Failure.swift; sourceTree = "<group>"; };
+		6F880381DD1E43CFDBEA00B4 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		6FDDC453B187855848EAF8C1 /* Pods-TapGestureGenerater_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7332D5AFDF36BF56DE74B9C5 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
+		75A8B91A285F53C1704A4C57 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		75E34E5C5C3F2DD156F594BA /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		7A4E5AB01C747F8C29458787 /* Pods_TapGestureGenerater_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapGestureGenerater_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE23C9BFAF6935659D976A7 /* Pods-TapGestureGenerater_Tests-Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-Quick-prefix.pch"; sourceTree = "<group>"; };
+		7D31EB99222BF9D0B7689BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823E0F4C2056ED1685612CE3 /* Pods-TapGestureGenerater_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-environment.h"; sourceTree = "<group>"; };
+		835FB38D4338A63C310B1A14 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater-prefix.pch"; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater-prefix.pch"; sourceTree = "<group>"; };
+		851F838C0048EA7829B0F196 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		8B24BCE691D056641AFEE9AD /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C13C9046BE0840A1A7161DD /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		8F5ECD20C1FA1AA772C38BA0 /* Pods-TapGestureGenerater_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F69951527B9B897877EF1F5 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		916A893842E39B4BFE7471A0 /* Pods-TapGestureGenerater_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		931F31291D045F18CC944B89 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Quick/Filter.swift; sourceTree = "<group>"; };
+		9405FF32123D9DF229991366 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
+		95ACADE7B017AA177E6E5E9F /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
+		962ABF4AD76DBD66FA1986FC /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		989CC3245899B924CD6886A6 /* Pods-TapGestureGenerater_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapGestureGenerater_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9916755860DD81A9FA0C9395 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		9F8DC1954073356916762C2C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20C7CACBC0A9BB9FACE4711 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
+		A917B201D4F36E1D67B699CF /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		A96764F3094737E0C45695C6 /* Pods-TapGestureGenerater_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Example-dummy.m"; sourceTree = "<group>"; };
+		AC8EA88906B64BAAF30921E0 /* Pods_TapGestureGenerater_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapGestureGenerater_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0381F7D9EFD19CF272D41E4 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		B077B8A262262D7D8B71F0F8 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		B1EE7433F76BAFF371A63DB2 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Quick/QuickSpec.m; sourceTree = "<group>"; };
+		B39CD32D582A21C7C49444C5 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		B4FB8F1DEFB97734CEE5A016 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m"; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m"; sourceTree = "<group>"; };
+		B61D96F4F77BD93CF8E8209A /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		B6B51CB59066E7857838D293 /* Pods-TapGestureGenerater_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B85E80D09421F7AADDEC5E9E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		B8985039F8FAB7E5DA004A00 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		B92C839FC9FEE8890196FEC4 /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = "<group>"; };
+		BB04339CC9902DFF5FAB2410 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
+		BBBCE25193E6199057D01797 /* Pods-TapGestureGenerater_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapGestureGenerater_Example-resources.sh"; sourceTree = "<group>"; };
+		BBD4A50FB9000F43E11459BE /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		BCC01B989F2EFF70927B95FF /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
+		BEBC92FDBEEFB70DB88C4119 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Example-TapGestureGenerater-dummy.m"; sourceTree = "<group>"; };
+		BF2F2A43D434F9F9EDE255A9 /* Pods-TapGestureGenerater_Tests-Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Tests-Nimble.modulemap"; sourceTree = "<group>"; };
+		BF60B5A8EAC96BB5BFEDCF58 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
+		BFEAA9C2AB465F5D5762E0C8 /* Pods-TapGestureGenerater_Tests-Quick-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-Quick-Private.xcconfig"; sourceTree = "<group>"; };
+		C0B7248515A7BCC01418A3A2 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		C0F4EA9293BE468DDA432E94 /* Pods-TapGestureGenerater_Tests-Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapGestureGenerater_Tests-Nimble-dummy.m"; sourceTree = "<group>"; };
+		C237573F3D1C23E619B54B36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A41221A8DCB3B19EB30EF3 /* Pods-TapGestureGenerater_Tests-Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Tests-Nimble-umbrella.h"; sourceTree = "<group>"; };
+		C2E79CBAF433453725CECC60 /* Pods-TapGestureGenerater_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapGestureGenerater_Example-environment.h"; sourceTree = "<group>"; };
+		C417182393494C80588EBEF0 /* Pods-TapGestureGenerater_Tests-Nimble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-Nimble-Private.xcconfig"; sourceTree = "<group>"; };
+		CD3E9E34A87ACBF472A96203 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		CE4344F0361B0B519A799264 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB18B24D643EC55AFF532D3 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
+		CFCEFB5C71ED29E40EC7702F /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01EBBE87027805EEA237E92 /* Pods-TapGestureGenerater_Tests-Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-Quick.xcconfig"; sourceTree = "<group>"; };
+		D541C47110034943B3B6A3B7 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
+		D58DCDE6BF4612A666E138EE /* Pods-TapGestureGenerater_Tests-TapGestureGenerater.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater.modulemap"; path = "../Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater.modulemap"; sourceTree = "<group>"; };
+		D686CBB6ECC2CD67A81DFA63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D5453D62D5C2E1D607884C /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
+		D974815276B30E51B77F8F70 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		DF583E8E795B6CFAC9711289 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF96346871209ADE03AC997D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0242EED1E0A76D53EBAB0D0 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Nimble/objc/DSL.h; sourceTree = "<group>"; };
+		E23639549A9B97384A235A19 /* Pods-TapGestureGenerater_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Tests.modulemap"; sourceTree = "<group>"; };
+		E4EE4BD37E5C7C0D6784DC0D /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Nimble/Expression.swift; sourceTree = "<group>"; };
+		E6D9964D233502927993CFA4 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		E8BA059A11FD158F2FDBDC5A /* Pods-TapGestureGenerater_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapGestureGenerater_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9D0F200BDA9E1688B6A3BC5 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Example-TapGestureGenerater-Private.xcconfig"; sourceTree = "<group>"; };
+		EE1C4278E8A200B5069B5CB6 /* Pods-TapGestureGenerater_Example-TapGestureGenerater.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Example-TapGestureGenerater.xcconfig"; sourceTree = "<group>"; };
+		EE49E0CB14A5453CEB2C331E /* TapGestureGenerater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TapGestureGenerater.swift; sourceTree = "<group>"; };
+		EF906FCC616A48BB0CB5FBB4 /* FullMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullMatcherWrapper.swift; path = Nimble/Wrappers/FullMatcherWrapper.swift; sourceTree = "<group>"; };
+		F097F660A860D78A27DF25D3 /* Pods-TapGestureGenerater_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapGestureGenerater_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8F651A1E92E50D3405D1022 /* Pods-TapGestureGenerater_Example-TapGestureGenerater.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TapGestureGenerater_Example-TapGestureGenerater.modulemap"; sourceTree = "<group>"; };
+		F908E23DDFD56C4779CF0509 /* Pods-TapGestureGenerater_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapGestureGenerater_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F947E4957C2D9F91C2C6ECD7 /* Poll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = Nimble/Utils/Poll.swift; sourceTree = "<group>"; };
+		FEB9DADD67DD001061810918 /* Pods-TapGestureGenerater_Tests-Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapGestureGenerater_Tests-Nimble.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1013CB09EA9555AC05343B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB71C3E80C53C53A9F05246 /* Foundation.framework in Frameworks */,
+				10FC970DDADC8EF44FD89FF8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EE3CF41CC777F5A4BE4171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD1FE5D18C8F3771F20239 /* Foundation.framework in Frameworks */,
+				6990BA52865343ABC807495F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A17097EEE97E2E34E8A8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4FB0EECA09D87621A2191E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75782A040F744E3236B2B51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37807B1B9AE4F533DB003B0B /* Foundation.framework in Frameworks */,
+				FCAF809DB293BD8A3E853198 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF2E95EEAA06A0406E2A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6122ED782FA8B83868F42C8D /* Foundation.framework in Frameworks */,
+				24C78847A431D854B0CAEFAC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E915DF992EB7F9CB02BE27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0C7B875164B85336B9D7E /* FBSnapshotTestCase.framework in Frameworks */,
+				3F7507A65AAD4F2ED7D77D81 /* Foundation.framework in Frameworks */,
+				C19B088AFB4CD3AC86D60FF7 /* Nimble.framework in Frameworks */,
+				D10A79592D4AD3B58CBC1670 /* Quick.framework in Frameworks */,
+				F4A0701094849BE8FF02AB2F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0AFD5F3A87FB7BA1920B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C612FEBC39B407169F16FE5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C49B1CD9E3DD0AB2C2AFEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A377EC131D4E723E03F704EB /* Foundation.framework in Frameworks */,
+				A598529F20C84A21CD12AA97 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CD5AC080127C59BDCA75DD /* TapGestureGenerater */ = {
+			isa = PBXGroup;
+			children = (
+				3B9B6CB1B93CA639FB92346D /* TapGestureGenerater.h */,
+				EE49E0CB14A5453CEB2C331E /* TapGestureGenerater.swift */,
+			);
+			path = TapGestureGenerater;
+			sourceTree = "<group>";
+		};
+		05BC10D984B5DCC25992E91A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF96346871209ADE03AC997D /* Foundation.framework */,
+				406483A27CA64845959E4274 /* UIKit.framework */,
+				6076946A01DA1332CD419E94 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		05F5531913D1F7CA59BC3185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A799F1259AFB7150DA8CEC9 /* FBSnapshotTestCase.framework */,
+				314FF7E19C81F310C1FCE812 /* Nimble.framework */,
+				CE4344F0361B0B519A799264 /* Quick.framework */,
+				05BC10D984B5DCC25992E91A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C7540FD687618B0DD1545 /* Pods-TapGestureGenerater_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15957E0E8A01EAA1AA3FE9EA /* Info.plist */,
+				E23639549A9B97384A235A19 /* Pods-TapGestureGenerater_Tests.modulemap */,
+				1774D2C9DF562192386C5877 /* Pods-TapGestureGenerater_Tests-acknowledgements.markdown */,
+				545DF63209113E4A98A9DD3A /* Pods-TapGestureGenerater_Tests-acknowledgements.plist */,
+				2597F07DC98B5DE476819582 /* Pods-TapGestureGenerater_Tests-dummy.m */,
+				823E0F4C2056ED1685612CE3 /* Pods-TapGestureGenerater_Tests-environment.h */,
+				F908E23DDFD56C4779CF0509 /* Pods-TapGestureGenerater_Tests-frameworks.sh */,
+				396230B3717970F1E960C66A /* Pods-TapGestureGenerater_Tests-resources.sh */,
+				33FE10281D13286F30A83E95 /* Pods-TapGestureGenerater_Tests-umbrella.h */,
+				6FDDC453B187855848EAF8C1 /* Pods-TapGestureGenerater_Tests.debug.xcconfig */,
+				8F5ECD20C1FA1AA772C38BA0 /* Pods-TapGestureGenerater_Tests.release.xcconfig */,
+			);
+			name = "Pods-TapGestureGenerater_Tests";
+			path = "Target Support Files/Pods-TapGestureGenerater_Tests";
+			sourceTree = "<group>";
+		};
+		0A22E1E0D6060A02D9EED023 /* TapGestureGenerater */ = {
+			isa = PBXGroup;
+			children = (
+				40155AB7320EBFCDE872DB17 /* Support Files */,
+				00CD5AC080127C59BDCA75DD /* TapGestureGenerater */,
+			);
+			name = TapGestureGenerater;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		121F0B3696C767A9B17D86DB /* Nimble-Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				B92C839FC9FEE8890196FEC4 /* HaveValidSnapshot.swift */,
+				09AD5C844E1875AADB79557B /* PrettySyntax.swift */,
+				72DF1A866A7A9E2AD4E3C26A /* Support Files */,
+			);
+			path = "Nimble-Snapshots";
+			sourceTree = "<group>";
+		};
+		1995AF19005A86E419EC095A /* Nimble */ = {
+			isa = PBXGroup;
+			children = (
+				95ACADE7B017AA177E6E5E9F /* AdapterProtocols.swift */,
+				4A8BF1488914C365501B3542 /* AllPass.swift */,
+				6F880381DD1E43CFDBEA00B4 /* AssertionRecorder.swift */,
+				9405FF32123D9DF229991366 /* AsyncMatcherWrapper.swift */,
+				1A73DA9FDE85A616E235E904 /* BasicMatcherWrapper.swift */,
+				D6D5453D62D5C2E1D607884C /* BeAKindOf.swift */,
+				A20C7CACBC0A9BB9FACE4711 /* BeAnInstanceOf.swift */,
+				75A8B91A285F53C1704A4C57 /* BeCloseTo.swift */,
+				5C7861C23D60ABB0D4E2147B /* BeEmpty.swift */,
+				7332D5AFDF36BF56DE74B9C5 /* BeGreaterThan.swift */,
+				20080D2A448421CF1C9BAE90 /* BeGreaterThanOrEqualTo.swift */,
+				098150DF388F4104DC474363 /* BeIdenticalTo.swift */,
+				6B8FD22651280F687F266149 /* BeLessThan.swift */,
+				B61D96F4F77BD93CF8E8209A /* BeLessThanOrEqual.swift */,
+				2099724D0805640D5DE8F011 /* BeLogical.swift */,
+				29C60D6AEB89BB91B107D3FB /* BeNil.swift */,
+				2FBCF7A6BFD307A84771B314 /* BeginWith.swift */,
+				3F66BD34F115F0B5A181E89A /* Contain.swift */,
+				E0242EED1E0A76D53EBAB0D0 /* DSL.h */,
+				421C54943F6F9CBD79FA5E75 /* DSL.m */,
+				6050AAABE0DB685E74F5D7A8 /* DSL.swift */,
+				E6D9964D233502927993CFA4 /* DSL+Wait.swift */,
+				BCC01B989F2EFF70927B95FF /* EndWith.swift */,
+				8C13C9046BE0840A1A7161DD /* Equal.swift */,
+				3B3350702F345DC64B3106BB /* Expectation.swift */,
+				E4EE4BD37E5C7C0D6784DC0D /* Expression.swift */,
+				498953353648AE0047ADE6D1 /* FailureMessage.swift */,
+				EF906FCC616A48BB0CB5FBB4 /* FullMatcherWrapper.swift */,
+				1B136D8A14DC9D6A66EDEF8F /* Functional.swift */,
+				D541C47110034943B3B6A3B7 /* Match.swift */,
+				BB04339CC9902DFF5FAB2410 /* MatcherFunc.swift */,
+				6C2FB9AF76885CC33CA0A50B /* MatcherProtocols.swift */,
+				962ABF4AD76DBD66FA1986FC /* NMBExceptionCapture.h */,
+				2136BB15953CFB4154A4AB67 /* NMBExceptionCapture.m */,
+				14A44D0D142FDC585D02F279 /* Nimble.h */,
+				0A0E1DB94212E9B95B2EC336 /* NimbleXCTestHandler.swift */,
+				36C3AF4A40ED40C1C6B6DBAB /* NonNilMatcherWrapper.swift */,
+				573FC586154D51FEA21C4C31 /* ObjCMatcher.swift */,
+				F947E4957C2D9F91C2C6ECD7 /* Poll.swift */,
+				CFB18B24D643EC55AFF532D3 /* RaisesException.swift */,
+				75E34E5C5C3F2DD156F594BA /* SourceLocation.swift */,
+				4F466FB145E28E784832CB28 /* Stringers.swift */,
+				33098D07354628B2FE969938 /* Support Files */,
+			);
+			path = Nimble;
+			sourceTree = "<group>";
+		};
+		33098D07354628B2FE969938 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF583E8E795B6CFAC9711289 /* Info.plist */,
+				BF2F2A43D434F9F9EDE255A9 /* Pods-TapGestureGenerater_Tests-Nimble.modulemap */,
+				FEB9DADD67DD001061810918 /* Pods-TapGestureGenerater_Tests-Nimble.xcconfig */,
+				C417182393494C80588EBEF0 /* Pods-TapGestureGenerater_Tests-Nimble-Private.xcconfig */,
+				C0F4EA9293BE468DDA432E94 /* Pods-TapGestureGenerater_Tests-Nimble-dummy.m */,
+				00E6344938C61EC5613AD040 /* Pods-TapGestureGenerater_Tests-Nimble-prefix.pch */,
+				C2A41221A8DCB3B19EB30EF3 /* Pods-TapGestureGenerater_Tests-Nimble-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TapGestureGenerater_Tests-Nimble";
+			sourceTree = "<group>";
+		};
+		40155AB7320EBFCDE872DB17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C237573F3D1C23E619B54B36 /* Info.plist */,
+				4FEFBBA7899AB74B2E8F70C0 /* Info.plist */,
+				F8F651A1E92E50D3405D1022 /* Pods-TapGestureGenerater_Example-TapGestureGenerater.modulemap */,
+				EE1C4278E8A200B5069B5CB6 /* Pods-TapGestureGenerater_Example-TapGestureGenerater.xcconfig */,
+				E9D0F200BDA9E1688B6A3BC5 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-Private.xcconfig */,
+				BEBC92FDBEEFB70DB88C4119 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-dummy.m */,
+				380C3ECA55DC18A6CAC60D3C /* Pods-TapGestureGenerater_Example-TapGestureGenerater-prefix.pch */,
+				1228AF14198D4EE865E67C94 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-umbrella.h */,
+				D58DCDE6BF4612A666E138EE /* Pods-TapGestureGenerater_Tests-TapGestureGenerater.modulemap */,
+				2D8DC1655DDF4A347C62E620 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater.xcconfig */,
+				27FE21A550FB9E79144049BE /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-Private.xcconfig */,
+				B4FB8F1DEFB97734CEE5A016 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m */,
+				835FB38D4338A63C310B1A14 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-prefix.pch */,
+				5DEA1B624D8E386FC1B4F8A6 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "TapGestureGeneraterExample/Pods/Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater";
+			sourceTree = "<group>";
+		};
+		47D6D2E194110E3183A93618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B24BCE691D056641AFEE9AD /* FBSnapshotTestCase.framework */,
+				68EF4157DD52CD572F2DE034 /* Nimble.framework */,
+				651D41DE586932ADE122F573 /* Nimble_Snapshots.framework */,
+				7A4E5AB01C747F8C29458787 /* Pods_TapGestureGenerater_Example.framework */,
+				AC8EA88906B64BAAF30921E0 /* Pods_TapGestureGenerater_Tests.framework */,
+				CFCEFB5C71ED29E40EC7702F /* Quick.framework */,
+				2B101A9EE6CCD2B679EEE047 /* TapGestureGenerater.framework */,
+				0F58A970DDDD3FCC6440D501 /* TapGestureGenerater.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57600F0F2D25AEE8B321A4ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				979AB673422A0F04A5E8242C /* Pods-TapGestureGenerater_Example */,
+				089C7540FD687618B0DD1545 /* Pods-TapGestureGenerater_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59A7A40781EB3A61ECAB6EA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D31EB99222BF9D0B7689BAC /* Info.plist */,
+				219FDE30F789093E82F40AE5 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.modulemap */,
+				22014A3EFFE7B6F60537F531 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.xcconfig */,
+				BBD4A50FB9000F43E11459BE /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				645D97B158E3E47B53ECFAD9 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-dummy.m */,
+				8F69951527B9B897877EF1F5 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-prefix.pch */,
+				B077B8A262262D7D8B71F0F8 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		72DF1A866A7A9E2AD4E3C26A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31CEFE779E9080EA185B542C /* Info.plist */,
+				BF60B5A8EAC96BB5BFEDCF58 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots.modulemap */,
+				395EA7A1108A3F28C1809CCF /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots.xcconfig */,
+				0F22F18CFECF3CC8E7BB65B3 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-Private.xcconfig */,
+				251E1804D939D428D3DF9E1B /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-dummy.m */,
+				B39CD32D582A21C7C49444C5 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-prefix.pch */,
+				57A9E99AA8DD0E1397A43D97 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots";
+			sourceTree = "<group>";
+		};
+		979AB673422A0F04A5E8242C /* Pods-TapGestureGenerater_Example */ = {
+			isa = PBXGroup;
+			children = (
+				14ED0A22CD46B8BB4691B897 /* Info.plist */,
+				68B7A735C51D17158CFFF1FE /* Pods-TapGestureGenerater_Example.modulemap */,
+				F097F660A860D78A27DF25D3 /* Pods-TapGestureGenerater_Example-acknowledgements.markdown */,
+				E8BA059A11FD158F2FDBDC5A /* Pods-TapGestureGenerater_Example-acknowledgements.plist */,
+				A96764F3094737E0C45695C6 /* Pods-TapGestureGenerater_Example-dummy.m */,
+				C2E79CBAF433453725CECC60 /* Pods-TapGestureGenerater_Example-environment.h */,
+				989CC3245899B924CD6886A6 /* Pods-TapGestureGenerater_Example-frameworks.sh */,
+				BBBCE25193E6199057D01797 /* Pods-TapGestureGenerater_Example-resources.sh */,
+				232E2AE6DA09638A8293F884 /* Pods-TapGestureGenerater_Example-umbrella.h */,
+				916A893842E39B4BFE7471A0 /* Pods-TapGestureGenerater_Example.debug.xcconfig */,
+				B6B51CB59066E7857838D293 /* Pods-TapGestureGenerater_Example.release.xcconfig */,
+			);
+			name = "Pods-TapGestureGenerater_Example";
+			path = "Target Support Files/Pods-TapGestureGenerater_Example";
+			sourceTree = "<group>";
+		};
+		98A88A6B6397859B865C6595 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3EAB55822C7C383764BC14E /* FBSnapshotTestCase */,
+				1995AF19005A86E419EC095A /* Nimble */,
+				121F0B3696C767A9B17D86DB /* Nimble-Snapshots */,
+				B0A27948B53804286F17FF8E /* Quick */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0D6A8A0F41BB180333EDDFF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A22E1E0D6060A02D9EED023 /* TapGestureGenerater */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0A27948B53804286F17FF8E /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				167CE4BFF2B7F6D3795F57FF /* Callsite.swift */,
+				4DC5D2D0A5FFA5F8A12CBFD8 /* Closures.swift */,
+				27EA25B5039A43EC4D022B85 /* Configuration.swift */,
+				851F838C0048EA7829B0F196 /* DSL.swift */,
+				383224C589EC7A5CDCD58BC8 /* Example.swift */,
+				C0B7248515A7BCC01418A3A2 /* ExampleGroup.swift */,
+				B8985039F8FAB7E5DA004A00 /* ExampleHooks.swift */,
+				CD3E9E34A87ACBF472A96203 /* ExampleMetadata.swift */,
+				6C7F0B3A0D761E682BD3955E /* Failure.swift */,
+				931F31291D045F18CC944B89 /* Filter.swift */,
+				43BD0B126293F1831FF40BAE /* NSString+QCKSelectorName.h */,
+				18590972B1D971D2A2AF2491 /* NSString+QCKSelectorName.m */,
+				4A4A7D75C68F264AD34AF67A /* QCKDSL.h */,
+				25DC7497D73E12F41CE9AF59 /* QCKDSL.m */,
+				56C8EB5C0DC9F7CD29DDF871 /* Quick.h */,
+				43736FAE431122B50212EC43 /* QuickConfiguration.h */,
+				0E021504F88484E9B921438D /* QuickConfiguration.m */,
+				3E5DADB5862F94F6FB9982AF /* QuickSpec.h */,
+				B1EE7433F76BAFF371A63DB2 /* QuickSpec.m */,
+				A917B201D4F36E1D67B699CF /* SuiteHooks.swift */,
+				177E37E9FA0C2474E2324594 /* World.swift */,
+				46A07FD665195CEE682BA6D0 /* World+DSL.swift */,
+				CCDA62CE2AF5713760009B6E /* Support Files */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		B3058372A2E5D69F45C3C482 = {
+			isa = PBXGroup;
+			children = (
+				9F8DC1954073356916762C2C /* Podfile */,
+				A0D6A8A0F41BB180333EDDFF /* Development Pods */,
+				05F5531913D1F7CA59BC3185 /* Frameworks */,
+				98A88A6B6397859B865C6595 /* Pods */,
+				47D6D2E194110E3183A93618 /* Products */,
+				57600F0F2D25AEE8B321A4ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDA62CE2AF5713760009B6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D686CBB6ECC2CD67A81DFA63 /* Info.plist */,
+				40B7DDA4C7B517D73365BE77 /* Pods-TapGestureGenerater_Tests-Quick.modulemap */,
+				D01EBBE87027805EEA237E92 /* Pods-TapGestureGenerater_Tests-Quick.xcconfig */,
+				BFEAA9C2AB465F5D5762E0C8 /* Pods-TapGestureGenerater_Tests-Quick-Private.xcconfig */,
+				3294C1BF2E939691D9BCA679 /* Pods-TapGestureGenerater_Tests-Quick-dummy.m */,
+				7AE23C9BFAF6935659D976A7 /* Pods-TapGestureGenerater_Tests-Quick-prefix.pch */,
+				3978D3B5DFFC783B338181B7 /* Pods-TapGestureGenerater_Tests-Quick-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TapGestureGenerater_Tests-Quick";
+			sourceTree = "<group>";
+		};
+		E3EAB55822C7C383764BC14E /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				B0381F7D9EFD19CF272D41E4 /* FBSnapshotTestCase.h */,
+				4A01CF91799AAD0A073DE660 /* FBSnapshotTestCase.m */,
+				668E73A61EFDEF6664072591 /* FBSnapshotTestCasePlatform.h */,
+				9916755860DD81A9FA0C9395 /* FBSnapshotTestCasePlatform.m */,
+				D974815276B30E51B77F8F70 /* FBSnapshotTestController.h */,
+				5A38E3028CD40D44B5007F02 /* FBSnapshotTestController.m */,
+				21BEFE283022C70147D099AE /* UIImage+Compare.h */,
+				1FF092F863315170FB7A00D3 /* UIImage+Compare.m */,
+				6AEB6C6A262B30369B815DEC /* UIImage+Diff.h */,
+				B85E80D09421F7AADDEC5E9E /* UIImage+Diff.m */,
+				59A7A40781EB3A61ECAB6EA7 /* Support Files */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C0666B22E53C982A8B53F01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0BD385C71D0E0878368089 /* DSL.h in Headers */,
+				B9586E5CF63B0C22A94AC94F /* NMBExceptionCapture.h in Headers */,
+				EF29A6FE0F575B18787C9D51 /* Nimble.h in Headers */,
+				D5C7C553A6F42B9C677372C9 /* Pods-TapGestureGenerater_Tests-Nimble-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5037A884627F6072EFCAA66C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE56DE82F108F75627699D8 /* FBSnapshotTestCase.h in Headers */,
+				7D4A653F8CB8FAD7EA3F4A79 /* FBSnapshotTestCasePlatform.h in Headers */,
+				C5ACB9E2ADD07A695DA54FB6 /* FBSnapshotTestController.h in Headers */,
+				F61FA397F1984938F179C6C7 /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				3D4629A3B78F221C7A15F2D0 /* UIImage+Compare.h in Headers */,
+				DED0B8508E56C8A770DEF06F /* UIImage+Diff.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4945489867159279511621 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610DB3B1A02649992CA81CB1 /* Pods-TapGestureGenerater_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE8889A61C1B53EA649F346 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3C9C5A54D73E0F47DD63D /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64FC75079FB60BEF44111AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75E77947CA3494393DE1651 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-umbrella.h in Headers */,
+				DBF6A460E485DEFBEC953610 /* TapGestureGenerater.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4BC7E9E80C4FD52FC06943 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B859CE4459FA295632CB731 /* Pods-TapGestureGenerater_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C596668B0446F60962C9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0B28F6D571A91275AE4886 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-umbrella.h in Headers */,
+				786B524D94FD0EBA5E210076 /* TapGestureGenerater.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3C26C667172216D4387167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38587E8A6696935DBA2DA2D3 /* NSString+QCKSelectorName.h in Headers */,
+				CF2FA20EBC2357D5398F8C2E /* Pods-TapGestureGenerater_Tests-Quick-umbrella.h in Headers */,
+				248D081581B18AA036C6BC08 /* QCKDSL.h in Headers */,
+				BB680356ACF8399D707AE776 /* Quick.h in Headers */,
+				6A2C6C49132B3AC3EA835CFF /* QuickConfiguration.h in Headers */,
+				7630FCB3A7B54126AC383385 /* QuickSpec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		063F5146CC11A07770B75881 /* Pods-TapGestureGenerater_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8F13C44453B7E4A8C7DFEF /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests" */;
+			buildPhases = (
+				6C9E07B25D63FCC5EF23980A /* Sources */,
+				A4F0AFD5F3A87FB7BA1920B1 /* Frameworks */,
+				AB4945489867159279511621 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318BC1F2F0A9D458F667425B /* PBXTargetDependency */,
+				2A6612F16C94732E0670978B /* PBXTargetDependency */,
+				E8B529F67232772298FBF666 /* PBXTargetDependency */,
+				4B4EE217C0051EB21BBE3057 /* PBXTargetDependency */,
+				6F985D9A62592E3691472857 /* PBXTargetDependency */,
+			);
+			name = "Pods-TapGestureGenerater_Tests";
+			productName = "Pods-TapGestureGenerater_Tests";
+			productReference = AC8EA88906B64BAAF30921E0 /* Pods_TapGestureGenerater_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		133C29379EC572060B54ABE4 /* Pods-TapGestureGenerater_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF41107A87F739ADE0046D41 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Example" */;
+			buildPhases = (
+				390A64CBD62CFDF067618F55 /* Sources */,
+				52A17097EEE97E2E34E8A8E6 /* Frameworks */,
+				EE4BC7E9E80C4FD52FC06943 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA9A5545C7B72334BE039DC /* PBXTargetDependency */,
+			);
+			name = "Pods-TapGestureGenerater_Example";
+			productName = "Pods-TapGestureGenerater_Example";
+			productReference = 7A4E5AB01C747F8C29458787 /* Pods_TapGestureGenerater_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51882117741FFD73EB15F5DA /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E802EC8338409E9927383C2F /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				DACEBE8485A3E55FF4864A2A /* Sources */,
+				84FF2E95EEAA06A0406E2A7F /* Frameworks */,
+				5037A884627F6072EFCAA66C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+			productName = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+			productReference = 8B24BCE691D056641AFEE9AD /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59F8DBB0EAC30B0CC6DF4D92 /* Pods-TapGestureGenerater_Example-TapGestureGenerater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5F8EB8B95CF2D8A3890577 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Example-TapGestureGenerater" */;
+			buildPhases = (
+				5D59564D118C8C85E29F09DD /* Sources */,
+				75782A040F744E3236B2B51A /* Frameworks */,
+				E64FC75079FB60BEF44111AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TapGestureGenerater_Example-TapGestureGenerater";
+			productName = "Pods-TapGestureGenerater_Example-TapGestureGenerater";
+			productReference = 0F58A970DDDD3FCC6440D501 /* TapGestureGenerater.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		798208F09E1D64FDAD43F238 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBA514629B3CF3A2201C7DA /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-Nimble-Snapshots" */;
+			buildPhases = (
+				388934FAFB0569B1E3076B92 /* Sources */,
+				9E915DF992EB7F9CB02BE27B /* Frameworks */,
+				AFE8889A61C1B53EA649F346 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DC6B2B515BE3F00C43605E /* PBXTargetDependency */,
+				C8C4AD54DC9FDC888D515004 /* PBXTargetDependency */,
+				BCB8D84E86A6D8B6335A6FA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots";
+			productName = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots";
+			productReference = 651D41DE586932ADE122F573 /* Nimble_Snapshots.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B5C7362E409C291DABB69C3 /* Pods-TapGestureGenerater_Tests-Nimble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3518F31FD5C5F036EA7FB9D4 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-Nimble" */;
+			buildPhases = (
+				31D0984774DC4E1C09C706E3 /* Sources */,
+				C4C49B1CD9E3DD0AB2C2AFEC /* Frameworks */,
+				1C0666B22E53C982A8B53F01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TapGestureGenerater_Tests-Nimble";
+			productName = "Pods-TapGestureGenerater_Tests-Nimble";
+			productReference = 68EF4157DD52CD572F2DE034 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC6C20B5CC74BCC44B56EF65 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C10517490DFD44CAD4DDA2E /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-TapGestureGenerater" */;
+			buildPhases = (
+				B7F11250DC6C6161C78FF82A /* Sources */,
+				16EE3CF41CC777F5A4BE4171 /* Frameworks */,
+				F3C596668B0446F60962C9CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater";
+			productName = "Pods-TapGestureGenerater_Tests-TapGestureGenerater";
+			productReference = 2B101A9EE6CCD2B679EEE047 /* TapGestureGenerater.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F709EED582B6C6E879BF2A71 /* Pods-TapGestureGenerater_Tests-Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B24D236FB45AE23F6B06D0 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-Quick" */;
+			buildPhases = (
+				3E487D3A3138309D90C16846 /* Sources */,
+				1013CB09EA9555AC05343B87 /* Frameworks */,
+				FF3C26C667172216D4387167 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TapGestureGenerater_Tests-Quick";
+			productName = "Pods-TapGestureGenerater_Tests-Quick";
+			productReference = CFCEFB5C71ED29E40EC7702F /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		872B158954CA8605E2583842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 164B045CF2F1EF256F6E9377 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3058372A2E5D69F45C3C482;
+			productRefGroup = 47D6D2E194110E3183A93618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133C29379EC572060B54ABE4 /* Pods-TapGestureGenerater_Example */,
+				59F8DBB0EAC30B0CC6DF4D92 /* Pods-TapGestureGenerater_Example-TapGestureGenerater */,
+				063F5146CC11A07770B75881 /* Pods-TapGestureGenerater_Tests */,
+				51882117741FFD73EB15F5DA /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase */,
+				9B5C7362E409C291DABB69C3 /* Pods-TapGestureGenerater_Tests-Nimble */,
+				798208F09E1D64FDAD43F238 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots */,
+				F709EED582B6C6E879BF2A71 /* Pods-TapGestureGenerater_Tests-Quick */,
+				AC6C20B5CC74BCC44B56EF65 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31D0984774DC4E1C09C706E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A3845913C2BB9E9718D16B /* AdapterProtocols.swift in Sources */,
+				64A64717BB1A7468A786EB98 /* AllPass.swift in Sources */,
+				F2292A30F8D2080B8EACE676 /* AssertionRecorder.swift in Sources */,
+				40E2D973AD148BD0C1E5302F /* AsyncMatcherWrapper.swift in Sources */,
+				AA90B3FA4A715CB8E5017C37 /* BasicMatcherWrapper.swift in Sources */,
+				A41C10FED1C16FF9F8C79053 /* BeAKindOf.swift in Sources */,
+				0FF03D195B5A8F3C3F372C58 /* BeAnInstanceOf.swift in Sources */,
+				2685AD8CE1E3450FCC9C8E20 /* BeCloseTo.swift in Sources */,
+				D1BB5DB94698673115B00AF1 /* BeEmpty.swift in Sources */,
+				38AFE4A0EF44630E0FCBB0BD /* BeGreaterThan.swift in Sources */,
+				3D780DB78CD2C5339A35648E /* BeGreaterThanOrEqualTo.swift in Sources */,
+				8195917A61DD806E7BE9C166 /* BeIdenticalTo.swift in Sources */,
+				1FFD4F00C2E09B74B701302C /* BeLessThan.swift in Sources */,
+				0340FFAAAC2F07BF728C066C /* BeLessThanOrEqual.swift in Sources */,
+				CFB218C74763F6EEFD72D512 /* BeLogical.swift in Sources */,
+				A2F4781B6F8DD76637111BE1 /* BeNil.swift in Sources */,
+				F5BB50D3736A950B72F77020 /* BeginWith.swift in Sources */,
+				37E64677CF0EA7BF3F60A2AA /* Contain.swift in Sources */,
+				CD196D7BD5EB4A3ED46CF00C /* DSL+Wait.swift in Sources */,
+				5E030C7627E0063678DFA963 /* DSL.m in Sources */,
+				CBADDEB1C6C9C8A995448621 /* DSL.swift in Sources */,
+				9CFFA6FCEB0B8119FA71169A /* EndWith.swift in Sources */,
+				EC4D3199D4424E2F8AFE5102 /* Equal.swift in Sources */,
+				E58CBC199A1F05B51E640F74 /* Expectation.swift in Sources */,
+				7ACBE3B5A2849EA5E0584D37 /* Expression.swift in Sources */,
+				A2F66C5B1C445DD49CCF1808 /* FailureMessage.swift in Sources */,
+				D3BC7B1B19966AECB7834A48 /* FullMatcherWrapper.swift in Sources */,
+				C12C44256EF90987FDEF70BD /* Functional.swift in Sources */,
+				886DA6B290EBC2E01E21AAB0 /* Match.swift in Sources */,
+				8F5CF0E4CD6DF3CC951C3732 /* MatcherFunc.swift in Sources */,
+				680E2E986C8A030656D4E704 /* MatcherProtocols.swift in Sources */,
+				B08D89AB747CCBDF83BF6E50 /* NMBExceptionCapture.m in Sources */,
+				7D8C36D795F9432D31C1B905 /* NimbleXCTestHandler.swift in Sources */,
+				E6593CABDD6866B802287CB3 /* NonNilMatcherWrapper.swift in Sources */,
+				E46B251953C9E3BCF70854BE /* ObjCMatcher.swift in Sources */,
+				4C7AE25C5FB80A18D73A9D0E /* Pods-TapGestureGenerater_Tests-Nimble-dummy.m in Sources */,
+				19BEC7F39796DC57AE0E8B49 /* Poll.swift in Sources */,
+				32294647C22C272F52C72636 /* RaisesException.swift in Sources */,
+				DD2259A97D13C8DE58DB9064 /* SourceLocation.swift in Sources */,
+				3D3EFD37A1FDAC035D17FF3A /* Stringers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388934FAFB0569B1E3076B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E254CB0DBE0A67EEC7A35A4 /* HaveValidSnapshot.swift in Sources */,
+				DB0802B4D6070DA088E97F13 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-dummy.m in Sources */,
+				DABDEC056C70AF4A4625777A /* PrettySyntax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390A64CBD62CFDF067618F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246A70011C74182F54B577C2 /* Pods-TapGestureGenerater_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E487D3A3138309D90C16846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1406D34B61DDF8125F69EA7D /* Callsite.swift in Sources */,
+				F09630B27D79D24F6165FA48 /* Closures.swift in Sources */,
+				C302A2A7D0B541499C44BE31 /* Configuration.swift in Sources */,
+				24D5FF93D18C19D3FCEB7430 /* DSL.swift in Sources */,
+				092B07DD4B7385D5804E7738 /* Example.swift in Sources */,
+				2D3A6A806575B410311804BA /* ExampleGroup.swift in Sources */,
+				A632AE491715B226EF8B0694 /* ExampleHooks.swift in Sources */,
+				DDA16E1B1E717A87498AD78D /* ExampleMetadata.swift in Sources */,
+				4E14857150DDE39781C22DDD /* Failure.swift in Sources */,
+				0C47C1ACEE229A9BA989DF70 /* Filter.swift in Sources */,
+				8A82CB883D0AC6F8DEF91891 /* NSString+QCKSelectorName.m in Sources */,
+				FEA18CEB3194C6A14DD52F64 /* Pods-TapGestureGenerater_Tests-Quick-dummy.m in Sources */,
+				B2A91F8BAFA8C1CB340F0860 /* QCKDSL.m in Sources */,
+				7A2DCB7796AC9EF15A0C442C /* QuickConfiguration.m in Sources */,
+				4FAA8097AB6F2B686335DAF2 /* QuickSpec.m in Sources */,
+				4A09D86216D5296A5EF404D5 /* SuiteHooks.swift in Sources */,
+				1D116C495A57C45C5FAE47EB /* World+DSL.swift in Sources */,
+				B2B7AB3DAB5DFB38CCC054F2 /* World.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D59564D118C8C85E29F09DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D52F64D448F7B18152FB0E /* Pods-TapGestureGenerater_Example-TapGestureGenerater-dummy.m in Sources */,
+				BCBAA6FFDFE2846AA67D07E7 /* TapGestureGenerater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9E07B25D63FCC5EF23980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF95AEB7A35B0BD6BA5F8F9 /* Pods-TapGestureGenerater_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F11250DC6C6161C78FF82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A47393CC3F743D847E1719 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-dummy.m in Sources */,
+				1F7C84B06C749BCC0F3E54C7 /* TapGestureGenerater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACEBE8485A3E55FF4864A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EE892F0BA50A7C019064E5 /* FBSnapshotTestCase.m in Sources */,
+				7F96C984A2C79986324B09FF /* FBSnapshotTestCasePlatform.m in Sources */,
+				78B4A5AAB96C9770495C2B77 /* FBSnapshotTestController.m in Sources */,
+				ABC63375482FF932D8FFCC8D /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				2AB7E8B8AD5DCCA773DE3028 /* UIImage+Compare.m in Sources */,
+				DE587BDA524C73E0BD9FFC16 /* UIImage+Diff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A6612F16C94732E0670978B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-Nimble";
+			target = 9B5C7362E409C291DABB69C3 /* Pods-TapGestureGenerater_Tests-Nimble */;
+			targetProxy = FD588FA07B1E0A99D18B4802 /* PBXContainerItemProxy */;
+		};
+		318BC1F2F0A9D458F667425B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+			target = 51882117741FFD73EB15F5DA /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase */;
+			targetProxy = 271D3D5A37B118C438403EC2 /* PBXContainerItemProxy */;
+		};
+		4B4EE217C0051EB21BBE3057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-Quick";
+			target = F709EED582B6C6E879BF2A71 /* Pods-TapGestureGenerater_Tests-Quick */;
+			targetProxy = 58878C97D0D054ECB7235E49 /* PBXContainerItemProxy */;
+		};
+		69DC6B2B515BE3F00C43605E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase";
+			target = 51882117741FFD73EB15F5DA /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase */;
+			targetProxy = E61F79D02AFD5CEB4975B23E /* PBXContainerItemProxy */;
+		};
+		6F985D9A62592E3691472857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-TapGestureGenerater";
+			target = AC6C20B5CC74BCC44B56EF65 /* Pods-TapGestureGenerater_Tests-TapGestureGenerater */;
+			targetProxy = 5B7AC5D118879013D78B8F5D /* PBXContainerItemProxy */;
+		};
+		BCB8D84E86A6D8B6335A6FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-Quick";
+			target = F709EED582B6C6E879BF2A71 /* Pods-TapGestureGenerater_Tests-Quick */;
+			targetProxy = 086920EBDD3555D2AFCEC1EE /* PBXContainerItemProxy */;
+		};
+		C8C4AD54DC9FDC888D515004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-Nimble";
+			target = 9B5C7362E409C291DABB69C3 /* Pods-TapGestureGenerater_Tests-Nimble */;
+			targetProxy = FC2194CAD28AC80A64F3223B /* PBXContainerItemProxy */;
+		};
+		E8B529F67232772298FBF666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Tests-Nimble-Snapshots";
+			target = 798208F09E1D64FDAD43F238 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots */;
+			targetProxy = BD30BAAEEFB6B35409373DB7 /* PBXContainerItemProxy */;
+		};
+		EFA9A5545C7B72334BE039DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapGestureGenerater_Example-TapGestureGenerater";
+			target = 59F8DBB0EAC30B0CC6DF4D92 /* Pods-TapGestureGenerater_Example-TapGestureGenerater */;
+			targetProxy = DD4AD8860626FFFAB63FF024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027F67F0194A5E1D51775D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F22F18CFECF3CC8E7BB65B3 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots/Pods-TapGestureGenerater_Tests-Nimble-Snapshots-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots/Pods-TapGestureGenerater_Tests-Nimble-Snapshots.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble_Snapshots;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DCB99FC363BA1CCC15392C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD4A50FB9000F43E11459BE /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17F41471EF1FFEC528E690DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C417182393494C80588EBEF0 /* Pods-TapGestureGenerater_Tests-Nimble-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble/Pods-TapGestureGenerater_Tests-Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble/Pods-TapGestureGenerater_Tests-Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FEC3CE1D6C715D7E393F68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0F200BDA9E1688B6A3BC5 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater/Pods-TapGestureGenerater_Example-TapGestureGenerater-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater/Pods-TapGestureGenerater_Example-TapGestureGenerater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TapGestureGenerater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46D2F61ADB7D15F185E015FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F22F18CFECF3CC8E7BB65B3 /* Pods-TapGestureGenerater_Tests-Nimble-Snapshots-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots/Pods-TapGestureGenerater_Tests-Nimble-Snapshots-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble-Snapshots/Pods-TapGestureGenerater_Tests-Nimble-Snapshots.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nimble_Snapshots;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		694FDD141A3A87404AD1B68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FE21A550FB9E79144049BE /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-TapGestureGenerater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TapGestureGenerater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		794F02B69B9E42367A4E1712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B51CB59066E7857838D293 /* Pods-TapGestureGenerater_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Example/Pods-TapGestureGenerater_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TapGestureGenerater_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84246BC70B69CAF49A303B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A06CEC8A3FF8D7360E444C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEAA9C2AB465F5D5762E0C8 /* Pods-TapGestureGenerater_Tests-Quick-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-Quick/Pods-TapGestureGenerater_Tests-Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Quick/Pods-TapGestureGenerater_Tests-Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF5C33989DFD2560B484A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5ECD20C1FA1AA772C38BA0 /* Pods-TapGestureGenerater_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests/Pods-TapGestureGenerater_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TapGestureGenerater_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3222BD6AD99E5A40B0DFA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEAA9C2AB465F5D5762E0C8 /* Pods-TapGestureGenerater_Tests-Quick-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-Quick/Pods-TapGestureGenerater_Tests-Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Quick/Pods-TapGestureGenerater_Tests-Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8B37BDD0ACE1E123E5FCBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD4A50FB9000F43E11459BE /* Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase/Pods-TapGestureGenerater_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D22AF0B1F80CF255B619AA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FE21A550FB9E79144049BE /* Pods-TapGestureGenerater_Tests-TapGestureGenerater-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-TapGestureGenerater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-TapGestureGenerater/Pods-TapGestureGenerater_Tests-TapGestureGenerater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TapGestureGenerater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3A132D05A47AD1F672778AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0F200BDA9E1688B6A3BC5 /* Pods-TapGestureGenerater_Example-TapGestureGenerater-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater/Pods-TapGestureGenerater_Example-TapGestureGenerater-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Example-TapGestureGenerater/Pods-TapGestureGenerater_Example-TapGestureGenerater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TapGestureGenerater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D76ADB7706F8718F69339DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDDC453B187855848EAF8C1 /* Pods-TapGestureGenerater_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests/Pods-TapGestureGenerater_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TapGestureGenerater_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB50EDA85956BC2FB791E2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF1B4B79F06B0675F494E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916A893842E39B4BFE7471A0 /* Pods-TapGestureGenerater_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Example/Pods-TapGestureGenerater_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TapGestureGenerater_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1231A0BBC7E3CA56350BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C417182393494C80588EBEF0 /* Pods-TapGestureGenerater_Tests-Nimble-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble/Pods-TapGestureGenerater_Tests-Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapGestureGenerater_Tests-Nimble/Pods-TapGestureGenerater_Tests-Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164B045CF2F1EF256F6E9377 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84246BC70B69CAF49A303B0A /* Debug */,
+				DB50EDA85956BC2FB791E2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C10517490DFD44CAD4DDA2E /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-TapGestureGenerater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22AF0B1F80CF255B619AA26 /* Debug */,
+				694FDD141A3A87404AD1B68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3518F31FD5C5F036EA7FB9D4 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-Nimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F41471EF1FFEC528E690DA /* Debug */,
+				F1231A0BBC7E3CA56350BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8F13C44453B7E4A8C7DFEF /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76ADB7706F8718F69339DF2 /* Debug */,
+				AAF5C33989DFD2560B484A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBA514629B3CF3A2201C7DA /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-Nimble-Snapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2F61ADB7D15F185E015FA /* Debug */,
+				027F67F0194A5E1D51775D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B24D236FB45AE23F6B06D0 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3222BD6AD99E5A40B0DFA10 /* Debug */,
+				A06CEC8A3FF8D7360E444C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF41107A87F739ADE0046D41 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF1B4B79F06B0675F494E9C /* Debug */,
+				794F02B69B9E42367A4E1712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E802EC8338409E9927383C2F /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCB99FC363BA1CCC15392C2 /* Debug */,
+				C8B37BDD0ACE1E123E5FCBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5F8EB8B95CF2D8A3890577 /* Build configuration list for PBXNativeTarget "Pods-TapGestureGenerater_Example-TapGestureGenerater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEC3CE1D6C715D7E393F68D /* Debug */,
+				D3A132D05A47AD1F672778AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 872B158954CA8605E2583842 /* Project object */;
+}
