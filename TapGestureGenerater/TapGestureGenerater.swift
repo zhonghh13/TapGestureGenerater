@@ -41,22 +41,22 @@ public class TapGestureGenerater: UIView {
 //
 extension TapGestureGenerater {
     
-    override public func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        if let touch = touches.first as? UITouch {
+    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        if let touch = touches.first {
             let point = touch.locationInView(self)
             didTouchesBegan?(self, point)
         }
     }
     
-    override public func touchesCancelled(touches: Set<NSObject>?, withEvent event: UIEvent?) {
-        if let touch = touches?.first as? UITouch {
+    override public func touchesCancelled(touches: Set<UITouch>?, withEvent event: UIEvent?) {
+        if let touch = touches?.first {
             let point = touch.locationInView(self)
             didTouchesCancelled?(self, point)
         }
     }
     
-    override public func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent?) {
-        if let draggingGesture = draggingGesture, let firstTouch = touches.first as? UITouch {
+    override public func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        if let draggingGesture = draggingGesture, let firstTouch = touches.first {
             let location = firstTouch.locationInView(self)
             let prevLocation = firstTouch.previousLocationInView(self)
             let deltaX = location.x - prevLocation.x
@@ -66,8 +66,8 @@ extension TapGestureGenerater {
         }
     }
     
-    override public func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent?) {
-        if let touch = touches.first as? UITouch {
+    override public func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        if let touch = touches.first {
             let point = touch.locationInView(self)
             didTouchesEnded?(self, point)
         }
@@ -90,7 +90,7 @@ extension TapGestureGenerater {
 extension TapGestureGenerater {
     
     public func reset() {
-        if let gestureRecognizers = gestureRecognizers as? [UIGestureRecognizer] {
+        if let gestureRecognizers = gestureRecognizers {
             for gestureRecognizer in gestureRecognizers {
                 removeGestureRecognizer(gestureRecognizer)
             }
